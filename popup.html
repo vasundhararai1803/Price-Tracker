@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Price Tracker</title>
+  <link id="themeStylesheet" rel="stylesheet" href="light.css"> <!-- Default to light mode -->
+  <style>
+    /* Basic styles for the button and toggle functionality */
+    .toggle-btn {
+      margin-top: 20px;
+      padding: 8px;
+      cursor: pointer;
+      background-color: #f7a500;
+      color: white;
+      border: none;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+  <h3>Tracked Products</h3>
+  <button id="track">Add Current Product</button>
+  <ul id="trackedItems"></ul>
+  
+  <!-- Add the Toggle Mode Button -->
+  <button class="toggle-btn" id="toggleMode">Switch to Dark Mode</button>
+  
+  <script src="popup.js"></script>
+</body>
+</html>

@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    width: 260px;
+    padding: 10px;
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #f7a500;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 10px;
+  }
+  
+  li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+    border-bottom: 1px solid #555;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #0073e6;
+    font-weight: bold;
+    flex-grow: 1;
+    text-align: left;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  .delete-btn {
+    background: none;
+    border: none;
+    color: red;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
